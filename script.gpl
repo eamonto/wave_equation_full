@@ -1,0 +1,7 @@
+plot [-5:5]  "test/phi.x" i 0 w l t "t=0"
+replot "test/phi.x" i 5 w l t "t=1"
+replot "test/phi.x" i 10 w l t "t=2"
+replot "test/phi.x" i 15 w l t "t=3"
+replot "test/phi.x" i 20 w l t "t=4"
+replot "test/phi.x" i 25 w l t "t=5"
+pause -1

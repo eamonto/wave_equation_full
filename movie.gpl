@@ -1,0 +1,5 @@
+n=100
+iter=0
+set xrange [-5:5]
+set yrange [-0.1:1]
+load "aux_script.gpl"

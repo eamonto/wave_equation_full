@@ -1,0 +1,8 @@
+if(iter<n) \
+plot "test/phi.x" i iter w l t ""; \
+print iter; \
+iter=iter+1; \
+pause 0.1;\
+reread
+
+pause -1
